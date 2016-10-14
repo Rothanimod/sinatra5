@@ -2,8 +2,8 @@
 - 50.times do |index|
   - n = index+1
   - if n%2 == 0
-    %p
-      %strong #{n} Soy Par!
+    = "#{n} Soy Par!"
+    %br
   - else
-    %p 
-      %strong #{n} Soy Impar!
+    = "#{n} Soy Impar!"
+    %br
