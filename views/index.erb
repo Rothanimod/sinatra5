@@ -1,0 +1,11 @@
+<h1> Hola</h1>
+<% 50.times do |index| %>
+  <% n = index+1 %>
+  <% if n%2 == 0 %>
+    <%= "#{n} Soy Par!" %>
+    <br>
+  <% else %>
+    <%= "#{n} Soy Impar!" %>
+    <br>
+    <% end %>
+<% end %>
